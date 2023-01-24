@@ -28,7 +28,7 @@ void SportsEquipment::show() const {
 
 string SportsEquipment::type() const {
     return "SportsEquipment";
-}
+} 
 
 void SportsEquipment::save(ofstream& file) const {
     file << "SportsEquipment ";
