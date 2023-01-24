@@ -39,16 +39,3 @@ void System::showAllProduct() {
     }
 }
 
-void System::showProduct(Product* showProduct) {
-    int index = -1;
-
-    for(int i = 0; i < v_product.size(); i++){
-        if(v_product[i] == showProduct)
-            index = i;
-    }
-
-    if(index != -1)
-        v_product[index]->show();
-       
-}
-

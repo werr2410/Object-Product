@@ -19,7 +19,6 @@ public:
     void pushProduct(Product* product);
     void deleteProduct(Product* product);
     void repushProduct(Product* oldProduct, Product* newProduct);
-    void showProduct(Product* showProduct);
     void showAllProduct();
 };
 
